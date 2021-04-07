@@ -65,7 +65,7 @@ const productSchema = mongoose.Schema(
       default: 0,
     },
     stockCount: {
-      type: String,
+      type: Number,
       required: true,
       default: 0,
     },
